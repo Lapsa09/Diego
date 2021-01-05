@@ -1,0 +1,17 @@
+.more {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more a {
+    margin-left: 5px;
+    color: #477ca7;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.more a:visited {
+    color: #8b49ee;
+}
