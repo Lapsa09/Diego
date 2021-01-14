@@ -5,6 +5,22 @@
     background-position: initial;
 }
 
+.timeline-item-title.css-1lcdd13-TitleWrapper.ergoa4r0 {
+    text-shadow: -1px -1.5px 2px #000, 1px -1.5px 2px #000, -1px 1.5px 2px #000, 1px 1.5px 2px #000;
+}
+
+.timeline-item-title.active.css-1lcdd13-TitleWrapper.ergoa4r0 {
+    text-shadow: unset;
+}
+
+.card-title.css-h9ktkk-TimelinecardTitle.emk90bu5 {
+    margin: 10px auto 0;
+    padding: 0;
+    text-align: center;
+    color: rgb(202, 174, 12);
+    text-shadow: -1px -1.5px 2px #000, 1px -1.5px 2px #000, -1px 1.5px 2px #000, 1px 1.5px 2px #000;
+}
+
 @media(max-width:800px) {
     .homepage {
         background-size: 100% 100%;
