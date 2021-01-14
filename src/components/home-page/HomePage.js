@@ -2,13 +2,14 @@ import React from "react";
 import Title from "../header/Title";
 import More from "../more/More";
 import Quote from "../quotes/Quote";
-import Table from "../timeline/Table";
+import "./homepage.css";
+import { Chrono } from "react-chrono";
 
-function HomePage() {
+function HomePage({ items }) {
   return (
-    <div>
+    <div className="homepage">
       <Title />
-      <Table />
+      <Chrono cardHeight={100} items={items} />
       <Quote />
       <More />
     </div>

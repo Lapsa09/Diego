@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1rem;
+    text-shadow: -1px -1.5px 0.5px #000, 1px -1.5px 0.5px #000, -1px 1.5px 0.5px #000, 1px 1.5px 0.5px #000;
 }
 
 .more a {
